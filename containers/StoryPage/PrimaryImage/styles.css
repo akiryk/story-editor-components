@@ -1,0 +1,10 @@
+.primaryImageWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.controls {
+  flex: 1 1.5 20rem;
+  display: flex;
+  justify-content: ;
+}

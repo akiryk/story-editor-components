@@ -1,0 +1,78 @@
+:global(.react-bs-table table) {
+  table-layout: fixed;
+  position: static;
+  margin-bottom: 0;
+}
+
+:global(.table-striped tbody tr:nth-of-type(odd)){
+  background-color: rgba(0,0,0,0.035);
+}
+
+:global(.table thead th){
+  border-bottom: none;
+}
+
+:global(.table-sm th){
+  padding: 0 .625rem 0 .875rem;
+}
+
+:global(.table-sm td){
+  padding: .625rem .625rem .875rem .875rem;
+}
+
+:global(.react-bs-container-header.table-header-wrapper.thead-default) {
+  margin-bottom: 1rem;
+}
+
+.search {
+  /* offset the negative margins used by bootstrap .row class */
+  margin-left: 15px;
+  width: 35%;
+}
+
+.story {
+
+}
+
+.story:hover > .story_links {
+  opacity: 1.0;
+}
+
+.list_inline_item {
+  border-right: 1px solid #ddd;
+  padding-right: 5px;
+}
+
+.list_inline_item:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.story_links {
+  opacity: 0.0;
+  transition: opacity .2s ease-in;
+  margin-top: .375rem;
+  margin-bottom: 0;
+  font-size: .75rem;
+  color: #666;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(12rem, 1fr) 5fr;
+  grid-gap: .875rem;
+  grid-template-rows: 2.5rem;
+  grid-template-areas:
+    "title data"
+    "filters data";
+}
+
+.data {
+  grid-area: data;
+}
+
+.pageTitle {
+  font-size: 1.125rem;
+  font-weight: 700;
+  grid-area: title;
+}

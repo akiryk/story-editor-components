@@ -1,0 +1,11 @@
+exports[`StoryPage component renders Headline correctly 1`] = `
+<div
+  className="form-group ">
+  <input
+    className="form-control story-headline "
+    onChange={[Function]}
+    placeholder="Write a headline"
+    type="text"
+    value="This is a headline" />
+</div>
+`;

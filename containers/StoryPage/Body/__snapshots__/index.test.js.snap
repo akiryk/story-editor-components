@@ -1,0 +1,564 @@
+exports[`StoryPage component renders Editor correctly 1`] = `
+<Content
+  autoCorrect={true}
+  autoFocus={false}
+  className="story-body"
+  editor={
+    Editor {
+      "_reactInternalInstance": ShallowComponentWrapper {
+        "_calledComponentWillUnmount": false,
+        "_compositeType": 0,
+        "_context": Object {},
+        "_currentElement": <Editor
+          autoCorrect={true}
+          autoFocus={false}
+          className="story-body"
+          onChange={[Function]}
+          onDocumentChange={[Function]}
+          onSelectionChange={[Function]}
+          placeholder="Write or copy/paste your story here..."
+          plugins={Array []}
+          readOnly={false}
+          schema={Object {}}
+          spellCheck={true}
+          state={
+                Object {
+                      "document": Object {
+                        "data": Object {},
+                        "key": "2",
+                        "nodes": Array [
+                          Object {
+                            "data": Object {},
+                            "isVoid": false,
+                            "key": "1",
+                            "nodes": Array [
+                              Object {
+                                "characters": Array [],
+                                "key": "0",
+                              },
+                            ],
+                            "type": "line",
+                          },
+                        ],
+                      },
+                      "history": Object {
+                        "redos": Array [],
+                        "undos": Array [],
+                      },
+                      "isNative": false,
+                      "selection": Object {
+                        "anchorKey": "0",
+                        "anchorOffset": 0,
+                        "focusKey": "0",
+                        "focusOffset": 0,
+                        "isBackward": false,
+                        "isFocused": false,
+                        "marks": null,
+                      },
+                    }
+          } />,
+        "_debugID": 1,
+        "_hostContainerInfo": null,
+        "_hostParent": null,
+        "_instance": [Circular],
+        "_mountOrder": 1,
+        "_pendingCallbacks": null,
+        "_pendingElement": null,
+        "_pendingForceUpdate": false,
+        "_pendingReplaceState": false,
+        "_pendingStateQueue": null,
+        "_renderedComponent": NoopInternalComponent {
+          "_currentElement": <Content
+            autoCorrect={true}
+            autoFocus={false}
+            className="story-body"
+            editor={[Circular]}
+            onBeforeInput={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onCopy={[Function]}
+            onCut={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onPaste={[Function]}
+            onSelect={[Function]}
+            readOnly={false}
+            role={undefined}
+            schema={
+                    Object {
+                            "rules": Array [
+                              Object {
+                                "match": [Function],
+                                "render": [Function],
+                              },
+                              Object {
+                                "match": [Function],
+                                "render": [Function],
+                              },
+                            ],
+                          }
+            }
+            spellCheck={true}
+            state={
+                    Object {
+                            "document": Object {
+                              "data": Object {},
+                              "key": "2",
+                              "nodes": Array [
+                                Object {
+                                  "data": Object {},
+                                  "isVoid": false,
+                                  "key": "1",
+                                  "nodes": Array [
+                                    Object {
+                                      "characters": Array [],
+                                      "key": "0",
+                                    },
+                                  ],
+                                  "type": "line",
+                                },
+                              ],
+                            },
+                            "history": Object {
+                              "redos": Array [],
+                              "undos": Array [],
+                            },
+                            "isNative": false,
+                            "selection": Object {
+                              "anchorKey": "0",
+                              "anchorOffset": 0,
+                              "focusKey": "0",
+                              "focusOffset": 0,
+                              "isBackward": false,
+                              "isFocused": false,
+                              "marks": null,
+                            },
+                          }
+            }
+            style={Object {}}
+            tabIndex={undefined}>
+            
+    </Content>,
+          "_debugID": 2,
+          "_renderedOutput": <Content
+            autoCorrect={true}
+            autoFocus={false}
+            className="story-body"
+            editor={[Circular]}
+            onBeforeInput={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onCopy={[Function]}
+            onCut={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onPaste={[Function]}
+            onSelect={[Function]}
+            readOnly={false}
+            role={undefined}
+            schema={
+                    Object {
+                            "rules": Array [
+                              Object {
+                                "match": [Function],
+                                "render": [Function],
+                              },
+                              Object {
+                                "match": [Function],
+                                "render": [Function],
+                              },
+                            ],
+                          }
+            }
+            spellCheck={true}
+            state={
+                    Object {
+                            "document": Object {
+                              "data": Object {},
+                              "key": "2",
+                              "nodes": Array [
+                                Object {
+                                  "data": Object {},
+                                  "isVoid": false,
+                                  "key": "1",
+                                  "nodes": Array [
+                                    Object {
+                                      "characters": Array [],
+                                      "key": "0",
+                                    },
+                                  ],
+                                  "type": "line",
+                                },
+                              ],
+                            },
+                            "history": Object {
+                              "redos": Array [],
+                              "undos": Array [],
+                            },
+                            "isNative": false,
+                            "selection": Object {
+                              "anchorKey": "0",
+                              "anchorOffset": 0,
+                              "focusKey": "0",
+                              "focusOffset": 0,
+                              "isBackward": false,
+                              "isFocused": false,
+                              "marks": null,
+                            },
+                          }
+            }
+            style={Object {}}
+            tabIndex={undefined}>
+            
+    </Content>,
+        },
+        "_renderedNodeType": 1,
+        "_rootNodeID": 0,
+        "_topLevelWrapper": null,
+        "_updateBatchNumber": null,
+        "_warnedAboutRefsInRender": false,
+      },
+      "blur": [Function],
+      "cacheState": [Function],
+      "componentWillReceiveProps": [Function],
+      "context": Object {},
+      "focus": [Function],
+      "getSchema": [Function],
+      "getState": [Function],
+      "onBeforeInput": [Function],
+      "onBlur": [Function],
+      "onChange": [Function],
+      "onCopy": [Function],
+      "onCut": [Function],
+      "onDrop": [Function],
+      "onFocus": [Function],
+      "onKeyDown": [Function],
+      "onPaste": [Function],
+      "onSelect": [Function],
+      "props": Object {
+        "autoCorrect": true,
+        "autoFocus": false,
+        "className": "story-body",
+        "onChange": [Function],
+        "onDocumentChange": [Function],
+        "onSelectionChange": [Function],
+        "placeholder": "Write or copy/paste your story here...",
+        "plugins": Array [],
+        "readOnly": false,
+        "schema": Object {},
+        "spellCheck": true,
+        "state": Object {
+          "document": Object {
+            "data": Object {},
+            "key": "2",
+            "nodes": Array [
+              Object {
+                "data": Object {},
+                "isVoid": false,
+                "key": "1",
+                "nodes": Array [
+                  Object {
+                    "characters": Array [],
+                    "key": "0",
+                  },
+                ],
+                "type": "line",
+              },
+            ],
+          },
+          "history": Object {
+            "redos": Array [],
+            "undos": Array [],
+          },
+          "isNative": false,
+          "selection": Object {
+            "anchorKey": "0",
+            "anchorOffset": 0,
+            "focusKey": "0",
+            "focusOffset": 0,
+            "isBackward": false,
+            "isFocused": false,
+            "marks": null,
+          },
+        },
+      },
+      "refs": Object {},
+      "render": [Function],
+      "state": Object {
+        "stack": Object {
+          "plugins": Array [
+            Object {
+              "autoCorrect": true,
+              "autoFocus": false,
+              "className": "story-body",
+              "onDocumentChange": [Function],
+              "onSelectionChange": [Function],
+              "placeholder": "Write or copy/paste your story here...",
+              "readOnly": false,
+              "schema": Object {},
+              "spellCheck": true,
+              "state": Object {
+                "document": Object {
+                  "data": Object {},
+                  "key": "2",
+                  "nodes": Array [
+                    Object {
+                      "data": Object {},
+                      "isVoid": false,
+                      "key": "1",
+                      "nodes": Array [
+                        Object {
+                          "characters": Array [],
+                          "key": "0",
+                        },
+                      ],
+                      "type": "line",
+                    },
+                  ],
+                },
+                "history": Object {
+                  "redos": Array [],
+                  "undos": Array [],
+                },
+                "isNative": false,
+                "selection": Object {
+                  "anchorKey": "0",
+                  "anchorOffset": 0,
+                  "focusKey": "0",
+                  "focusOffset": 0,
+                  "isBackward": false,
+                  "isFocused": false,
+                  "marks": null,
+                },
+              },
+            },
+            Object {
+              "onBeforeChange": [Function],
+              "onBeforeInput": [Function],
+              "onBlur": [Function],
+              "onCopy": [Function],
+              "onCut": [Function],
+              "onDrop": [Function],
+              "onKeyDown": [Function],
+              "onPaste": [Function],
+              "onSelect": [Function],
+              "render": [Function],
+              "schema": Object {
+                "rules": Array [
+                  Object {
+                    "match": [Function],
+                    "render": [Function],
+                  },
+                  Object {
+                    "match": [Function],
+                    "render": [Function],
+                  },
+                ],
+              },
+            },
+          ],
+          "schema": Object {
+            "rules": Array [
+              Object {
+                "match": [Function],
+                "render": [Function],
+              },
+              Object {
+                "match": [Function],
+                "render": [Function],
+              },
+            ],
+          },
+        },
+        "state": Object {
+          "document": Object {
+            "data": Object {},
+            "key": "2",
+            "nodes": Array [
+              Object {
+                "data": Object {},
+                "isVoid": false,
+                "key": "1",
+                "nodes": Array [
+                  Object {
+                    "characters": Array [],
+                    "key": "0",
+                  },
+                ],
+                "type": "line",
+              },
+            ],
+          },
+          "history": Object {
+            "redos": Array [],
+            "undos": Array [],
+          },
+          "isNative": false,
+          "selection": Object {
+            "anchorKey": "0",
+            "anchorOffset": 0,
+            "focusKey": "0",
+            "focusOffset": 0,
+            "isBackward": false,
+            "isFocused": false,
+            "marks": null,
+          },
+        },
+      },
+      "tmp": Object {
+        "document": Object {
+          "data": Object {},
+          "key": "2",
+          "nodes": Array [
+            Object {
+              "data": Object {},
+              "isVoid": false,
+              "key": "1",
+              "nodes": Array [
+                Object {
+                  "characters": Array [],
+                  "key": "0",
+                },
+              ],
+              "type": "line",
+            },
+          ],
+        },
+        "selection": Object {
+          "anchorKey": "0",
+          "anchorOffset": 0,
+          "focusKey": "0",
+          "focusOffset": 0,
+          "isBackward": false,
+          "isFocused": false,
+          "marks": null,
+        },
+      },
+      "updater": Object {
+        "enqueueCallback": [Function],
+        "enqueueCallbackInternal": [Function],
+        "enqueueElementInternal": [Function],
+        "enqueueForceUpdate": [Function],
+        "enqueueReplaceState": [Function],
+        "enqueueSetState": [Function],
+        "isMounted": [Function],
+        "validateCallback": [Function],
+      },
+    }
+  }
+  onBeforeInput={[Function]}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onCopy={[Function]}
+  onCut={[Function]}
+  onDrop={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onPaste={[Function]}
+  onSelect={[Function]}
+  readOnly={false}
+  role={undefined}
+  schema={
+    Object {
+      "rules": Array [
+        Object {
+          "match": [Function],
+          "render": [Function],
+        },
+        Object {
+          "match": [Function],
+          "render": [Function],
+        },
+      ],
+    }
+  }
+  spellCheck={true}
+  state={
+    Object {
+      "document": Object {
+        "data": Object {},
+        "key": "2",
+        "nodes": Array [
+          Object {
+            "data": Object {},
+            "isVoid": false,
+            "key": "1",
+            "nodes": Array [
+              Object {
+                "characters": Array [],
+                "key": "0",
+              },
+            ],
+            "type": "line",
+          },
+        ],
+      },
+      "history": Object {
+        "redos": Array [],
+        "undos": Array [],
+      },
+      "isNative": false,
+      "selection": Object {
+        "anchorKey": "0",
+        "anchorOffset": 0,
+        "focusKey": "0",
+        "focusOffset": 0,
+        "isBackward": false,
+        "isFocused": false,
+        "marks": null,
+      },
+    }
+  }
+  style={Object {}}
+  tabIndex={undefined}>
+  
+</Content>
+`;
+
+exports[`StoryPage component renders RichTextMenu correctly 1`] = `
+<Portal
+  isOpened={true}
+  onClose={[Function]}
+  onOpen={[Function]}
+  onUpdate={[Function]}>
+  <div
+    className="richTextToolbar__container__3K-vp"
+    data-link-field={false}>
+    <RichTextToolbar
+      IconComponent={undefined}
+      breakLinkIcon={undefined}
+      closeIcon="control icons close"
+      closeInput={[Function]}
+      constants={undefined}
+      currentComponent="toolbar"
+      dropdownButtons={Array []}
+      dropdownIcon={undefined}
+      editorElement={undefined}
+      editorState={Object {}}
+      forceFocus={true}
+      moreButtons={
+        Array [
+          Object {
+            "foo": "bar",
+          },
+        ]
+      }
+      moreIcon="foobar"
+      onClose={[Function]}
+      onEditorChange={[Function]}
+      onOpen={[Function]}
+      openLinkIcon={undefined}
+      primaryButtons={
+        Array [
+          Object {
+            "foo": "bar",
+          },
+        ]
+      }
+      showAnchorInput={[Function]}
+      showLinkInput={[Function]} />
+  </div>
+</Portal>
+`;

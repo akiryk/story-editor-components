@@ -1,0 +1,4 @@
+.story-body-placeholder > div > span:nth-child(2) {
+  color: #dc540f;
+  opacity: 1 !important;
+}

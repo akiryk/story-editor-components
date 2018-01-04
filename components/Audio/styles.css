@@ -1,0 +1,10 @@
+.truncated-text-container {
+  width: 89%;
+  justify-content: space-between;
+  padding-top: .5em;
+}
+.truncated-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
