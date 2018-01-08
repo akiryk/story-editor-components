@@ -25,10 +25,10 @@ const PrimaryAudio = ({
 }) => (
   <div className="card mb-4">
     <div className="card-block d-flex justify-content-between">
-      {true || url ?
+      {file || url ?
         <AssignedPrimaryAudio
           filename={filename}
-          url={'http://www.noiseaddicts.com/samples_1w72b820/3851.mp3'}
+          url={url}
           openRemoveConfirmModal={openRemoveConfirmModal}
         />
         : <AddPrimaryAudio openAssetPickerModal={openAssetPickerModal} />
